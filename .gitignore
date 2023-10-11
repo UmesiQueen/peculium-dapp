@@ -4,8 +4,12 @@
 /node_modules
 .env 
 
+typechain
+typechain-types
+
 # testing
 /coverage
+coverage.json
 
 # production
 /build
