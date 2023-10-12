@@ -17,7 +17,7 @@
     "jsx": "react-jsx",
     "declaration": true
   },
-  "include": ["src", "scripts", "test"],
+  "include": ["src", "scripts", "test", "artifacts"],
   "exclude": ["node_modules", "build", "dist"],
   "files": ["./hardhat.config.ts"]
 }

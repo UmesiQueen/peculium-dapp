@@ -7,6 +7,9 @@ const config: HardhatUserConfig = {
   solidity: {
     version: "0.8.19",
   },
+  paths: {
+    artifacts: "./src/artifacts",
+  },
   networks: {
     // for mainnet
     "base-mainnet": {

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&display=swap");
+
+:root {
+  --navy-blue: #15133c;
+  --light-orange: #ec994b;
+  --pale-white: #f1eee9;
+  --light-blue: #4d4c7d;
+  --grey: #73777b;
+}
+
 *,
 *::after,
 *::before {
@@ -11,4 +21,11 @@
 
 html {
   box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: var(--navy-blue);
+  color: var(--pale-white);
+  font-family: "AR One Sans", Arial, Helvetica, sans-serif;
 }

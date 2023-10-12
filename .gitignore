@@ -20,3 +20,6 @@ coverage.json
 # Hardhat files
 cache
 artifacts
+
+react-app-env.d.ts
+# global.d.ts
